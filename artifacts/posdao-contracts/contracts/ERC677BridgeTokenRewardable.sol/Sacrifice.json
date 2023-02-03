@@ -1,0 +1,22 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Sacrifice",
+  "sourceName": "posdao-contracts/contracts/ERC677BridgeTokenRewardable.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "name": "_recipient",
+          "type": "address"
+        }
+      ],
+      "payable": true,
+      "stateMutability": "payable",
+      "type": "constructor"
+    }
+  ],
+  "bytecode": "0x60806040526040516032380380603283398181016040526020811015602357600080fd5b50516001600160a01b038116fffe",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72305820d971bb24ddd8a656dfdc42d2841dfc4f904a3593c7de9e65a1fc348a886008e364736f6c634300050a0032",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

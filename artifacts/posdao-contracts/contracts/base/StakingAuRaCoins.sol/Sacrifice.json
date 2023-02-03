@@ -1,0 +1,22 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Sacrifice",
+  "sourceName": "posdao-contracts/contracts/base/StakingAuRaCoins.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "name": "_recipient",
+          "type": "address"
+        }
+      ],
+      "payable": true,
+      "stateMutability": "payable",
+      "type": "constructor"
+    }
+  ],
+  "bytecode": "0x60806040526040516032380380603283398181016040526020811015602357600080fd5b50516001600160a01b038116fffe",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a723058209fcad2491a4a73fcefec40b4ef2c8e017dc85ce6dcf2f668ba1e7b3995b38c5c64736f6c634300050a0032",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

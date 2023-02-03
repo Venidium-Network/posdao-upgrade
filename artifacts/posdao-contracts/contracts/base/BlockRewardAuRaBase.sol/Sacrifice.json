@@ -1,0 +1,22 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Sacrifice",
+  "sourceName": "posdao-contracts/contracts/base/BlockRewardAuRaBase.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "name": "_recipient",
+          "type": "address"
+        }
+      ],
+      "payable": true,
+      "stateMutability": "payable",
+      "type": "constructor"
+    }
+  ],
+  "bytecode": "0x60806040526040516032380380603283398181016040526020811015602357600080fd5b50516001600160a01b038116fffe",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72305820096fdf40ddcdf321bc459b9cf199ba07311dbed31cc9a2363dbdb8e4019b4bce64736f6c634300050a0032",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

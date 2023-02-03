@@ -1,0 +1,1263 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x3acEcC32449c5CE02D7E51658855eD6e126F26b0",
+    "txHash": "0xa6eac815a1918046f7e558fca87eba873c6f126c7d67c743c5c17b8b759ba168",
+    "deployTransaction": {
+      "hash": "0xa6eac815a1918046f7e558fca87eba873c6f126c7d67c743c5c17b8b759ba168",
+      "type": 0,
+      "accessList": null,
+      "blockHash": null,
+      "blockNumber": null,
+      "transactionIndex": null,
+      "confirmations": 0,
+      "from": "0xD9f8fF24B26edad70510F11FE3E7553443fd5d48",
+      "gasPrice": {
+        "type": "BigNumber",
+        "hex": "0x0ba43b7400"
+      },
+      "gasLimit": {
+        "type": "BigNumber",
+        "hex": "0x076b4d"
+      },
+      "to": null,
+      "value": {
+        "type": "BigNumber",
+        "hex": "0x00"
+      },
+      "nonce": 1,
+      "data": "0x608060405234801561001057600080fd5b50600080546001600160a01b031916339081178255604051909182917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0908290a350610759806100616000396000f3fe60806040526004361061007b5760003560e01c80639623609d1161004e5780639623609d1461011157806399a88ec414610124578063f2fde38b14610144578063f3b7dead146101645761007b565b8063204e1c7a14610080578063715018a6146100bc5780637eff275e146100d35780638da5cb5b146100f3575b600080fd5b34801561008c57600080fd5b506100a061009b366004610515565b610184565b6040516001600160a01b03909116815260200160405180910390f35b3480156100c857600080fd5b506100d1610215565b005b3480156100df57600080fd5b506100d16100ee366004610554565b610292565b3480156100ff57600080fd5b506000546001600160a01b03166100a0565b6100d161011f36600461058c565b61031c565b34801561013057600080fd5b506100d161013f366004610554565b6103ad565b34801561015057600080fd5b506100d161015f366004610515565b610405565b34801561017057600080fd5b506100a061017f366004610515565b6104ef565b6000806000836001600160a01b03166040516101aa90635c60da1b60e01b815260040190565b600060405180830381855afa9150503d80600081146101e5576040519150601f19603f3d011682016040523d82523d6000602084013e6101ea565b606091505b5091509150816101f957600080fd5b8080602001905181019061020d9190610538565b949350505050565b6000546001600160a01b031633146102485760405162461bcd60e51b815260040161023f906106c0565b60405180910390fd5b600080546040516001600160a01b03909116907f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0908390a3600080546001600160a01b0319169055565b6000546001600160a01b031633146102bc5760405162461bcd60e51b815260040161023f906106c0565b6040516308f2839760e41b81526001600160a01b038281166004830152831690638f283970906024015b600060405180830381600087803b15801561030057600080fd5b505af1158015610314573d6000803e3d6000fd5b505050505050565b6000546001600160a01b031633146103465760405162461bcd60e51b815260040161023f906106c0565b60405163278f794360e11b81526001600160a01b03841690634f1ef286903490610376908690869060040161065d565b6000604051808303818588803b15801561038f57600080fd5b505af11580156103a3573d6000803e3d6000fd5b5050505050505050565b6000546001600160a01b031633146103d75760405162461bcd60e51b815260040161023f906106c0565b604051631b2ce7f360e11b81526001600160a01b038281166004830152831690633659cfe6906024016102e6565b6000546001600160a01b0316331461042f5760405162461bcd60e51b815260040161023f906106c0565b6001600160a01b0381166104945760405162461bcd60e51b815260206004820152602660248201527f4f776e61626c653a206e6577206f776e657220697320746865207a65726f206160448201526564647265737360d01b606482015260840161023f565b600080546040516001600160a01b03808516939216917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e091a3600080546001600160a01b0319166001600160a01b0392909216919091179055565b6000806000836001600160a01b03166040516101aa906303e1469160e61b815260040190565b600060208284031215610526578081fd5b81356105318161070b565b9392505050565b600060208284031215610549578081fd5b81516105318161070b565b60008060408385031215610566578081fd5b82356105718161070b565b915060208301356105818161070b565b809150509250929050565b6000806000606084860312156105a0578081fd5b83356105ab8161070b565b925060208401356105bb8161070b565b9150604084013567ffffffffffffffff808211156105d7578283fd5b818601915086601f8301126105ea578283fd5b8135818111156105fc576105fc6106f5565b604051601f8201601f19908116603f01168101908382118183101715610624576106246106f5565b8160405282815289602084870101111561063c578586fd5b82602086016020830137856020848301015280955050505050509250925092565b600060018060a01b038416825260206040818401528351806040850152825b818110156106985785810183015185820160600152820161067c565b818111156106a95783606083870101525b50601f01601f191692909201606001949350505050565b6020808252818101527f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572604082015260600190565b634e487b7160e01b600052604160045260246000fd5b6001600160a01b038116811461072057600080fd5b5056fea2646970667358221220d849f96f3086b9f82cdcf665adb8c697ace05638da1c7c16ab2d26293717af6764736f6c63430008020033",
+      "r": "0xb4815858acbb2727b2cccc4a6dea28b9eafdbc08967ee3c389aac923a1380bc6",
+      "s": "0x385a574420e0b125f208d75b88eb1e674e748d99692933dc98370e8b308966a3",
+      "v": 9874,
+      "creates": "0x3acEcC32449c5CE02D7E51658855eD6e126F26b0",
+      "chainId": 4919
+    }
+  },
+  "proxies": [
+    {
+      "address": "0x1000000000000000000000000000000000000001",
+      "txHash": "0xde1ffb7bbde6999afe71fe7bf4f4ed7749640e010369ec0ce3a703869bef64ba",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x6100000000000000000000000000000000000001",
+      "txHash": "0x746eb55afed54273bee28a88962bead42202079360fbe42ce6022c2b3334d699",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x1100000000000000000000000000000000000001",
+      "txHash": "0x7eafddaf108b37c35183afc064c1638c36f34a76af9a334775684ee6ea2232c6",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x2000000000000000000000000000000000000001",
+      "txHash": "0x6d576bbe904523a82d8ba54f92531f2b032d2b8382563aaaaf34dd9007c4b4fa",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x3000000000000000000000000000000000000001",
+      "txHash": "0x635fd22d713293fd1ed6b481b2a3dd2479f99c1923359ade6ac054d41fb777df",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x4000000000000000000000000000000000000001",
+      "txHash": "0xc99bd077ff4af3a123841d985b5b79591c5eeb05c9f5ac13df731b9f8c5b0386",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x5000000000000000000000000000000000000001",
+      "txHash": "0x6afb7b810d5a023918dfdeab5710615719e7ddd36892ffff5a2cf695dbe36a49",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "f4f83a09aa5182a84763e2e0380a7e40f6223a0a5b8d01f3dd2dfc6d3ea52728": {
+      "address": "0x1000000000000000000000000000000000000000",
+      "txHash": "0x405e9c1ea993d99193a3e46aefb7b4a67533c170f91cf91933ee2e854c11c3bc",
+      "layout": {
+        "storage": [
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "_currentValidators",
+            "type": "t_array(t_uint256)dyn_storage",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:24"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "_pendingValidators",
+            "type": "t_array(t_uint256)dyn_storage",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:25"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "_previousValidators",
+            "type": "t_array(t_uint256)dyn_storage",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:26"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "_finalizeValidators",
+            "type": "t_struct(ValidatorsList)3365_storage",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:31"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "_pendingValidatorsChanged",
+            "type": "t_bool",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:33"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "_pendingValidatorsChangedForNewEpoch",
+            "type": "t_bool",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:34"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "_maliceReportedForBlock",
+            "type": "t_mapping(t_uint256,t_mapping(t_uint256,t_array(t_uint256)dyn_storage))",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:36"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "_maliceReportedForBlockMapped",
+            "type": "t_mapping(t_uint256,t_mapping(t_uint256,t_mapping(t_uint256,t_bool)))",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:37"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "_banCounter",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:40"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "_bannedUntil",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:43"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "_bannedDelegatorsUntil",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:47"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "_banReason",
+            "type": "t_mapping(t_uint256,t_bytes32)",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:51"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "blockRewardContract",
+            "type": "t_address",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:54"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "changeRequestCount",
+            "type": "t_uint256",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:58"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "isValidatorById",
+            "type": "t_mapping(t_uint256,t_bool)",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:62"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "_isValidatorPrevious",
+            "type": "t_mapping(t_uint256,t_bool)",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:65"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "miningByStakingAddress",
+            "type": "t_mapping(t_address,t_address)",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:69"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "randomContract",
+            "type": "t_address",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:72"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "_reportingCounter",
+            "type": "t_mapping(t_uint256,t_mapping(t_uint256,t_uint256))",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:77"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "_reportingCounterTotal",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:82"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "stakingByMiningAddress",
+            "type": "t_mapping(t_address,t_address)",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:86"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "stakingContract",
+            "type": "t_contract(IStakingAuRa)16100",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:89"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "_unremovableValidator",
+            "type": "t_uint256",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:92"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "_validatorCounter",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:95"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "validatorSetApplyBlock",
+            "type": "t_uint256",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:101"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "lastChangeBlock",
+            "type": "t_uint256",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:105"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "hasEverBeenMiningAddress",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:109"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "hasEverBeenStakingAddress",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:112"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "idByMiningAddress",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:116"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "idByStakingAddress",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:120"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "miningAddressById",
+            "type": "t_mapping(t_uint256,t_address)",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:124"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "stakingAddressById",
+            "type": "t_mapping(t_uint256,t_address)",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:128"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "lastPoolId",
+            "type": "t_uint256",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:132"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "miningAddressChangeRequest",
+            "type": "t_struct(MiningAddressChangeRequest)3477_storage",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:138"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "poolName",
+            "type": "t_mapping(t_uint256,t_string_storage)",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:141"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "poolDescription",
+            "type": "t_mapping(t_uint256,t_string_storage)",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:144"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "governanceContract",
+            "type": "t_contract(IGovernance)15877",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:147"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "_unremovableValidators",
+            "type": "t_array(t_uint256)dyn_storage",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:150"
+          },
+          {
+            "contract": "ValidatorSetAuRa",
+            "label": "isUnremovableValidator",
+            "type": "t_mapping(t_uint256,t_bool)",
+            "src": "posdao-contracts/contracts/ValidatorSetAuRa.sol:153"
+          }
+        ],
+        "types": {
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_struct(ValidatorsList)3365_storage": {
+            "label": "struct ValidatorSetAuRa.ValidatorsList",
+            "members": [
+              {
+                "label": "forNewEpoch",
+                "type": "t_bool"
+              },
+              {
+                "label": "list",
+                "type": "t_array(t_uint256)dyn_storage"
+              }
+            ]
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_uint256,t_mapping(t_uint256,t_array(t_uint256)dyn_storage))": {
+            "label": "mapping(uint256 => mapping(uint256 => uint256[]))"
+          },
+          "t_mapping(t_uint256,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(uint256 => uint256[])"
+          },
+          "t_mapping(t_uint256,t_mapping(t_uint256,t_mapping(t_uint256,t_bool)))": {
+            "label": "mapping(uint256 => mapping(uint256 => mapping(uint256 => bool)))"
+          },
+          "t_mapping(t_uint256,t_mapping(t_uint256,t_bool))": {
+            "label": "mapping(uint256 => mapping(uint256 => bool))"
+          },
+          "t_mapping(t_uint256,t_bool)": {
+            "label": "mapping(uint256 => bool)"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_mapping(t_uint256,t_bytes32)": {
+            "label": "mapping(uint256 => bytes32)"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_address,t_address)": {
+            "label": "mapping(address => address)"
+          },
+          "t_mapping(t_uint256,t_mapping(t_uint256,t_uint256))": {
+            "label": "mapping(uint256 => mapping(uint256 => uint256))"
+          },
+          "t_contract(IStakingAuRa)16100": {
+            "label": "contract IStakingAuRa"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)"
+          },
+          "t_struct(MiningAddressChangeRequest)3477_storage": {
+            "label": "struct ValidatorSetAuRa.MiningAddressChangeRequest",
+            "members": [
+              {
+                "label": "poolId",
+                "type": "t_uint256"
+              },
+              {
+                "label": "newMiningAddress",
+                "type": "t_address"
+              }
+            ]
+          },
+          "t_mapping(t_uint256,t_string_storage)": {
+            "label": "mapping(uint256 => string)"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_contract(IGovernance)15877": {
+            "label": "contract IGovernance"
+          }
+        }
+      }
+    },
+    "cbb6f44a3678fea800aa25ff35b7c35bb43c267c4ac4c8066cb9e75a30f45f9a": {
+      "address": "0x6100000000000000000000000000000000000000",
+      "txHash": "0x620f1be3d3f79cf16085f7565cfd9685283ef13488de9d34564e635c9ff26631",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Governance",
+            "label": "ballotIdByPoolId",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/Governance.sol:26"
+          },
+          {
+            "contract": "Governance",
+            "label": "openCountPerPoolId",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/Governance.sol:29"
+          },
+          {
+            "contract": "Governance",
+            "label": "ballotPoolId",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/Governance.sol:32"
+          },
+          {
+            "contract": "Governance",
+            "label": "ballotCreator",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/Governance.sol:35"
+          },
+          {
+            "contract": "Governance",
+            "label": "ballotExpirationBlock",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/Governance.sol:38"
+          },
+          {
+            "contract": "Governance",
+            "label": "ballotLongBanUntilBlock",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/Governance.sol:42"
+          },
+          {
+            "contract": "Governance",
+            "label": "ballotShortBanUntilBlock",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/Governance.sol:46"
+          },
+          {
+            "contract": "Governance",
+            "label": "ballotReason",
+            "type": "t_mapping(t_uint256,t_bytes32)",
+            "src": "posdao-contracts/contracts/Governance.sol:50"
+          },
+          {
+            "contract": "Governance",
+            "label": "ballotResult",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/Governance.sol:53"
+          },
+          {
+            "contract": "Governance",
+            "label": "ballotStatus",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/Governance.sol:56"
+          },
+          {
+            "contract": "Governance",
+            "label": "ballotStakingEpoch",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/Governance.sol:59"
+          },
+          {
+            "contract": "Governance",
+            "label": "ballotThreshold",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/Governance.sol:64"
+          },
+          {
+            "contract": "Governance",
+            "label": "ballotVotesKeep",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/Governance.sol:68"
+          },
+          {
+            "contract": "Governance",
+            "label": "ballotVotesRemove",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/Governance.sol:72"
+          },
+          {
+            "contract": "Governance",
+            "label": "ballotVotesBan",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/Governance.sol:76"
+          },
+          {
+            "contract": "Governance",
+            "label": "ballotPoolVoted",
+            "type": "t_mapping(t_uint256,t_mapping(t_uint256,t_uint256))",
+            "src": "posdao-contracts/contracts/Governance.sol:81"
+          },
+          {
+            "contract": "Governance",
+            "label": "latestBallotId",
+            "type": "t_uint256",
+            "src": "posdao-contracts/contracts/Governance.sol:84"
+          },
+          {
+            "contract": "Governance",
+            "label": "validatorSetContract",
+            "type": "t_contract(IValidatorSetAuRa)16399",
+            "src": "posdao-contracts/contracts/Governance.sol:87"
+          }
+        ],
+        "types": {
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_bytes32)": {
+            "label": "mapping(uint256 => bytes32)"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_mapping(t_uint256,t_mapping(t_uint256,t_uint256))": {
+            "label": "mapping(uint256 => mapping(uint256 => uint256))"
+          },
+          "t_contract(IValidatorSetAuRa)16399": {
+            "label": "contract IValidatorSetAuRa"
+          }
+        }
+      }
+    },
+    "c124428a01d8fbb3c65b3cd1e539c23a93aae4302a162d5917b11be36e2baf1c": {
+      "address": "0x1100000000000000000000000000000000000000",
+      "txHash": "0xa42874f25824c29b625ab3132ba0bd5b17da05a6bab0a181867a25767d3a37ba",
+      "layout": {
+        "storage": [
+          {
+            "contract": "StakingAuRaBase",
+            "label": "_pools",
+            "type": "t_array(t_uint256)dyn_storage",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:22"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "_poolsInactive",
+            "type": "t_array(t_uint256)dyn_storage",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:23"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "_poolsToBeElected",
+            "type": "t_array(t_uint256)dyn_storage",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:24"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "_poolsToBeRemoved",
+            "type": "t_array(t_uint256)dyn_storage",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:25"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "_poolsLikelihood",
+            "type": "t_array(t_uint256)dyn_storage",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:26"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "_poolsLikelihoodSum",
+            "type": "t_uint256",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:27"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "_poolDelegators",
+            "type": "t_mapping(t_uint256,t_array(t_address)dyn_storage)",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:28"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "_poolDelegatorsInactive",
+            "type": "t_mapping(t_uint256,t_array(t_address)dyn_storage)",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:29"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "_delegatorPools",
+            "type": "t_mapping(t_address,t_array(t_uint256)dyn_storage)",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:30"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "_delegatorPoolsIndexes",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_uint256))",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:31"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "_stakeAmountByEpoch",
+            "type": "t_mapping(t_uint256,t_mapping(t_address,t_mapping(t_uint256,t_uint256)))",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:32"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "_stakeInitial",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:33"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "______gapForInternal",
+            "type": "t_array(t_uint256)24_storage",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:36"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "candidateMinStake",
+            "type": "t_uint256",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:39"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "delegatorMinStake",
+            "type": "t_uint256",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:42"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "delegatorStakeSnapshot",
+            "type": "t_mapping(t_uint256,t_mapping(t_address,t_mapping(t_uint256,t_uint256)))",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:48"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "orderedWithdrawAmount",
+            "type": "t_mapping(t_uint256,t_mapping(t_address,t_uint256))",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:54"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "orderedWithdrawAmountTotal",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:58"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "orderWithdrawEpoch",
+            "type": "t_mapping(t_uint256,t_mapping(t_address,t_uint256))",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:65"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "poolDelegatorIndex",
+            "type": "t_mapping(t_uint256,t_mapping(t_address,t_uint256))",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:72"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "poolDelegatorInactiveIndex",
+            "type": "t_mapping(t_uint256,t_mapping(t_address,t_uint256))",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:79"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "poolInactiveIndex",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:83"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "poolIndex",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:89"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "poolToBeElectedIndex",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:96"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "poolToBeRemovedIndex",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:103"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "rewardWasTaken",
+            "type": "t_mapping(t_uint256,t_mapping(t_address,t_mapping(t_uint256,t_bool)))",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:110"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "stakeAmount",
+            "type": "t_mapping(t_uint256,t_mapping(t_address,t_uint256))",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:116"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "stakeFirstEpoch",
+            "type": "t_mapping(t_uint256,t_mapping(t_address,t_uint256))",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:122"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "stakeLastEpoch",
+            "type": "t_mapping(t_uint256,t_mapping(t_address,t_uint256))",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:128"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "stakeWithdrawDisallowPeriod",
+            "type": "t_uint256",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:132"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "stakingEpoch",
+            "type": "t_uint256",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:135"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "stakingEpochDuration",
+            "type": "t_uint256",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:138"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "stakingEpochStartBlock",
+            "type": "t_uint256",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:141"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "stakeAmountTotal",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:146"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "validatorSetContract",
+            "type": "t_contract(IValidatorSetAuRa)16399",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:149"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "lastChangeBlock",
+            "type": "t_uint256",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:153"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "governanceContract",
+            "type": "t_contract(IGovernance)15877",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:156"
+          },
+          {
+            "contract": "StakingAuRaBase",
+            "label": "______gapForPublic",
+            "type": "t_array(t_uint256)23_storage",
+            "src": "posdao-contracts/contracts/base/StakingAuRaBase.sol:159"
+          }
+        ],
+        "types": {
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_array(t_address)dyn_storage)": {
+            "label": "mapping(uint256 => address[])"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_address,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(address => uint256[])"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_uint256))": {
+            "label": "mapping(address => mapping(uint256 => uint256))"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_mapping(t_uint256,t_mapping(t_address,t_mapping(t_uint256,t_uint256)))": {
+            "label": "mapping(uint256 => mapping(address => mapping(uint256 => uint256)))"
+          },
+          "t_array(t_uint256)24_storage": {
+            "label": "uint256[24]"
+          },
+          "t_mapping(t_uint256,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(uint256 => mapping(address => uint256))"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_uint256,t_mapping(t_address,t_mapping(t_uint256,t_bool)))": {
+            "label": "mapping(uint256 => mapping(address => mapping(uint256 => bool)))"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_bool))": {
+            "label": "mapping(address => mapping(uint256 => bool))"
+          },
+          "t_mapping(t_uint256,t_bool)": {
+            "label": "mapping(uint256 => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_contract(IValidatorSetAuRa)16399": {
+            "label": "contract IValidatorSetAuRa"
+          },
+          "t_contract(IGovernance)15877": {
+            "label": "contract IGovernance"
+          },
+          "t_array(t_uint256)23_storage": {
+            "label": "uint256[23]"
+          }
+        }
+      }
+    },
+    "dce27efa914950bc5664316da95b10375157fa8b13ded6011b55e63ba5adbfa6": {
+      "address": "0x2000000000000000000000000000000000000000",
+      "txHash": "0x5133162ecfe19baebb1e668f9eec76bbada92c2769725a541e14ebbb46eeec84",
+      "layout": {
+        "storage": [
+          {
+            "contract": "BlockRewardAuRaBase",
+            "label": "_epochsPoolGotRewardFor",
+            "type": "t_mapping(t_uint256,t_array(t_uint256)dyn_storage)",
+            "src": "posdao-contracts/contracts/base/BlockRewardAuRaBase.sol:29"
+          },
+          {
+            "contract": "BlockRewardAuRaBase",
+            "label": "_ercToNativeBridgeAllowed",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "posdao-contracts/contracts/base/BlockRewardAuRaBase.sol:30"
+          },
+          {
+            "contract": "BlockRewardAuRaBase",
+            "label": "_ercToNativeBridgesAllowed",
+            "type": "t_array(t_address)dyn_storage",
+            "src": "posdao-contracts/contracts/base/BlockRewardAuRaBase.sol:31"
+          },
+          {
+            "contract": "BlockRewardAuRaBase",
+            "label": "_prevBlockRewardContract",
+            "type": "t_contract(IBlockRewardAuRa)15747",
+            "src": "posdao-contracts/contracts/base/BlockRewardAuRaBase.sol:32"
+          },
+          {
+            "contract": "BlockRewardAuRaBase",
+            "label": "_queueERInitialized",
+            "type": "t_bool",
+            "src": "posdao-contracts/contracts/base/BlockRewardAuRaBase.sol:33"
+          },
+          {
+            "contract": "BlockRewardAuRaBase",
+            "label": "_queueERFirst",
+            "type": "t_uint256",
+            "src": "posdao-contracts/contracts/base/BlockRewardAuRaBase.sol:34"
+          },
+          {
+            "contract": "BlockRewardAuRaBase",
+            "label": "_queueERLast",
+            "type": "t_uint256",
+            "src": "posdao-contracts/contracts/base/BlockRewardAuRaBase.sol:35"
+          },
+          {
+            "contract": "BlockRewardAuRaBase",
+            "label": "_queueER",
+            "type": "t_mapping(t_uint256,t_struct(ExtraReceiverQueue)6747_storage)",
+            "src": "posdao-contracts/contracts/base/BlockRewardAuRaBase.sol:41"
+          },
+          {
+            "contract": "BlockRewardAuRaBase",
+            "label": "______gapForInternal",
+            "type": "t_array(t_uint256)25_storage",
+            "src": "posdao-contracts/contracts/base/BlockRewardAuRaBase.sol:44"
+          },
+          {
+            "contract": "BlockRewardAuRaBase",
+            "label": "blocksCreated",
+            "type": "t_mapping(t_uint256,t_mapping(t_uint256,t_uint256))",
+            "src": "posdao-contracts/contracts/base/BlockRewardAuRaBase.sol:53"
+          },
+          {
+            "contract": "BlockRewardAuRaBase",
+            "label": "bridgeNativeReward",
+            "type": "t_uint256",
+            "src": "posdao-contracts/contracts/base/BlockRewardAuRaBase.sol:57"
+          },
+          {
+            "contract": "BlockRewardAuRaBase",
+            "label": "epochPoolNativeReward",
+            "type": "t_mapping(t_uint256,t_mapping(t_uint256,t_uint256))",
+            "src": "posdao-contracts/contracts/base/BlockRewardAuRaBase.sol:62"
+          },
+          {
+            "contract": "BlockRewardAuRaBase",
+            "label": "mintedForAccount",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "posdao-contracts/contracts/base/BlockRewardAuRaBase.sol:66"
+          },
+          {
+            "contract": "BlockRewardAuRaBase",
+            "label": "mintedForAccountInBlock",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_uint256))",
+            "src": "posdao-contracts/contracts/base/BlockRewardAuRaBase.sol:70"
+          },
+          {
+            "contract": "BlockRewardAuRaBase",
+            "label": "mintedInBlock",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/base/BlockRewardAuRaBase.sol:74"
+          },
+          {
+            "contract": "BlockRewardAuRaBase",
+            "label": "mintedTotally",
+            "type": "t_uint256",
+            "src": "posdao-contracts/contracts/base/BlockRewardAuRaBase.sol:78"
+          },
+          {
+            "contract": "BlockRewardAuRaBase",
+            "label": "mintedTotallyByBridge",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "posdao-contracts/contracts/base/BlockRewardAuRaBase.sol:82"
+          },
+          {
+            "contract": "BlockRewardAuRaBase",
+            "label": "nativeRewardUndistributed",
+            "type": "t_uint256",
+            "src": "posdao-contracts/contracts/base/BlockRewardAuRaBase.sol:85"
+          },
+          {
+            "contract": "BlockRewardAuRaBase",
+            "label": "snapshotPoolTotalStakeAmount",
+            "type": "t_mapping(t_uint256,t_mapping(t_uint256,t_uint256))",
+            "src": "posdao-contracts/contracts/base/BlockRewardAuRaBase.sol:90"
+          },
+          {
+            "contract": "BlockRewardAuRaBase",
+            "label": "snapshotPoolValidatorStakeAmount",
+            "type": "t_mapping(t_uint256,t_mapping(t_uint256,t_uint256))",
+            "src": "posdao-contracts/contracts/base/BlockRewardAuRaBase.sol:95"
+          },
+          {
+            "contract": "BlockRewardAuRaBase",
+            "label": "validatorMinRewardPercent",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "posdao-contracts/contracts/base/BlockRewardAuRaBase.sol:102"
+          },
+          {
+            "contract": "BlockRewardAuRaBase",
+            "label": "validatorSetContract",
+            "type": "t_contract(IValidatorSetAuRa)16399",
+            "src": "posdao-contracts/contracts/base/BlockRewardAuRaBase.sol:105"
+          },
+          {
+            "contract": "BlockRewardAuRaBase",
+            "label": "______gapForPublic",
+            "type": "t_array(t_uint256)25_storage",
+            "src": "posdao-contracts/contracts/base/BlockRewardAuRaBase.sol:108"
+          }
+        ],
+        "types": {
+          "t_mapping(t_uint256,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(uint256 => uint256[])"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]"
+          },
+          "t_contract(IBlockRewardAuRa)15747": {
+            "label": "contract IBlockRewardAuRa"
+          },
+          "t_mapping(t_uint256,t_struct(ExtraReceiverQueue)6747_storage)": {
+            "label": "mapping(uint256 => struct BlockRewardAuRaBase.ExtraReceiverQueue)"
+          },
+          "t_struct(ExtraReceiverQueue)6747_storage": {
+            "label": "struct BlockRewardAuRaBase.ExtraReceiverQueue",
+            "members": [
+              {
+                "label": "amount",
+                "type": "t_uint256"
+              },
+              {
+                "label": "bridge",
+                "type": "t_address"
+              },
+              {
+                "label": "receiver",
+                "type": "t_address"
+              }
+            ]
+          },
+          "t_array(t_uint256)25_storage": {
+            "label": "uint256[25]"
+          },
+          "t_mapping(t_uint256,t_mapping(t_uint256,t_uint256))": {
+            "label": "mapping(uint256 => mapping(uint256 => uint256))"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_uint256))": {
+            "label": "mapping(address => mapping(uint256 => uint256))"
+          },
+          "t_contract(IValidatorSetAuRa)16399": {
+            "label": "contract IValidatorSetAuRa"
+          }
+        }
+      }
+    },
+    "d6f04d9542df1eecdb36e940978fb987ca4aad2b45e87d9d5db31970bd3ed062": {
+      "address": "0x3000000000000000000000000000000000000000",
+      "txHash": "0xd53594ed3b2b6d76b0c6efc62c123392e48b9b4cd04dfc0739a91203012b3f6b",
+      "layout": {
+        "storage": [
+          {
+            "contract": "RandomAuRa",
+            "label": "_ciphers",
+            "type": "t_mapping(t_uint256,t_mapping(t_uint256,t_bytes_storage))",
+            "src": "posdao-contracts/contracts/RandomAuRa.sol:20"
+          },
+          {
+            "contract": "RandomAuRa",
+            "label": "_commits",
+            "type": "t_mapping(t_uint256,t_mapping(t_uint256,t_bytes32))",
+            "src": "posdao-contracts/contracts/RandomAuRa.sol:21"
+          },
+          {
+            "contract": "RandomAuRa",
+            "label": "_committedValidators",
+            "type": "t_mapping(t_uint256,t_array(t_uint256)dyn_storage)",
+            "src": "posdao-contracts/contracts/RandomAuRa.sol:22"
+          },
+          {
+            "contract": "RandomAuRa",
+            "label": "collectRoundLength",
+            "type": "t_uint256",
+            "src": "posdao-contracts/contracts/RandomAuRa.sol:25"
+          },
+          {
+            "contract": "RandomAuRa",
+            "label": "currentSeed",
+            "type": "t_uint256",
+            "src": "posdao-contracts/contracts/RandomAuRa.sol:29"
+          },
+          {
+            "contract": "RandomAuRa",
+            "label": "punishForUnreveal",
+            "type": "t_bool",
+            "src": "posdao-contracts/contracts/RandomAuRa.sol:32"
+          },
+          {
+            "contract": "RandomAuRa",
+            "label": "_revealSkips",
+            "type": "t_mapping(t_uint256,t_mapping(t_uint256,t_uint256))",
+            "src": "posdao-contracts/contracts/RandomAuRa.sol:35"
+          },
+          {
+            "contract": "RandomAuRa",
+            "label": "_sentReveal",
+            "type": "t_mapping(t_uint256,t_mapping(t_uint256,t_bool))",
+            "src": "posdao-contracts/contracts/RandomAuRa.sol:39"
+          },
+          {
+            "contract": "RandomAuRa",
+            "label": "validatorSetContract",
+            "type": "t_contract(IValidatorSetAuRa)16399",
+            "src": "posdao-contracts/contracts/RandomAuRa.sol:42"
+          }
+        ],
+        "types": {
+          "t_mapping(t_uint256,t_mapping(t_uint256,t_bytes_storage))": {
+            "label": "mapping(uint256 => mapping(uint256 => bytes))"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_bytes_storage)": {
+            "label": "mapping(uint256 => bytes)"
+          },
+          "t_bytes_storage": {
+            "label": "bytes"
+          },
+          "t_mapping(t_uint256,t_mapping(t_uint256,t_bytes32))": {
+            "label": "mapping(uint256 => mapping(uint256 => bytes32))"
+          },
+          "t_mapping(t_uint256,t_bytes32)": {
+            "label": "mapping(uint256 => bytes32)"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_mapping(t_uint256,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(uint256 => uint256[])"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_uint256,t_mapping(t_uint256,t_uint256))": {
+            "label": "mapping(uint256 => mapping(uint256 => uint256))"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_mapping(t_uint256,t_mapping(t_uint256,t_bool))": {
+            "label": "mapping(uint256 => mapping(uint256 => bool))"
+          },
+          "t_mapping(t_uint256,t_bool)": {
+            "label": "mapping(uint256 => bool)"
+          },
+          "t_contract(IValidatorSetAuRa)16399": {
+            "label": "contract IValidatorSetAuRa"
+          }
+        }
+      }
+    },
+    "a4d21e56dc8b2085d615fbdeaba1d7259860ebe2b46d4527a606e6b9997b82b8": {
+      "address": "0x4000000000000000000000000000000000000000",
+      "txHash": "0xddb03de7536f19b882455f11a30533da454a6fcc464a79f123b0f9a275594d03",
+      "layout": {
+        "storage": [
+          {
+            "contract": "TxPermissionBase",
+            "label": "_allowedSenders",
+            "type": "t_array(t_address)dyn_storage",
+            "src": "posdao-contracts/contracts/base/TxPermissionBase.sol:22"
+          },
+          {
+            "contract": "TxPermissionBase",
+            "label": "certifierContract",
+            "type": "t_contract(ICertifier)15831",
+            "src": "posdao-contracts/contracts/base/TxPermissionBase.sol:25"
+          },
+          {
+            "contract": "TxPermissionBase",
+            "label": "isSenderAllowed",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "posdao-contracts/contracts/base/TxPermissionBase.sol:30"
+          },
+          {
+            "contract": "TxPermissionBase",
+            "label": "validatorSetContract",
+            "type": "t_contract(IValidatorSetAuRa)16399",
+            "src": "posdao-contracts/contracts/base/TxPermissionBase.sol:33"
+          },
+          {
+            "contract": "TxPermissionBase",
+            "label": "_deployerInputLengthLimit",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "posdao-contracts/contracts/base/TxPermissionBase.sol:35"
+          },
+          {
+            "contract": "TxPermissionBase",
+            "label": "senderMinGasPrice",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "posdao-contracts/contracts/base/TxPermissionBase.sol:39"
+          }
+        ],
+        "types": {
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_contract(ICertifier)15831": {
+            "label": "contract ICertifier"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_contract(IValidatorSetAuRa)16399": {
+            "label": "contract IValidatorSetAuRa"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    },
+    "4df5dd9245a7d1ba702d4740b0a2b6be06de423cff6dd29a37f0d2047ec2d4bd": {
+      "address": "0x5000000000000000000000000000000000000000",
+      "txHash": "0x0d00084baa3a0a2bfd1ac24d251a866d74a5739577c67a70f8177dd1564f1747",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Certifier",
+            "label": "_certified",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "posdao-contracts/contracts/Certifier.sol:18"
+          },
+          {
+            "contract": "Certifier",
+            "label": "validatorSetContract",
+            "type": "t_contract(IValidatorSetAuRa)16399",
+            "src": "posdao-contracts/contracts/Certifier.sol:21"
+          }
+        ],
+        "types": {
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_contract(IValidatorSetAuRa)16399": {
+            "label": "contract IValidatorSetAuRa"
+          }
+        }
+      }
+    }
+  }
+}

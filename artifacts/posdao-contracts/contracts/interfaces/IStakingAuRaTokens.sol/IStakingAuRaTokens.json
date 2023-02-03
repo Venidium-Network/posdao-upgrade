@@ -1,0 +1,25 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IStakingAuRaTokens",
+  "sourceName": "posdao-contracts/contracts/interfaces/IStakingAuRaTokens.sol",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "erc677TokenContract",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

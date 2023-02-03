@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "UpgradeableOwned",
+  "sourceName": "posdao-contracts/contracts/upgradeability/UpgradeableOwned.sol",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a7230582001d7337f13cca577b5efd55704406447a7532909616b37eb1adb8c60cd01439a64736f6c634300050a0032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a7230582001d7337f13cca577b5efd55704406447a7532909616b37eb1adb8c60cd01439a64736f6c634300050a0032",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

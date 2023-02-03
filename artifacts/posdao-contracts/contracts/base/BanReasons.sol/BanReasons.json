@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "BanReasons",
+  "sourceName": "posdao-contracts/contracts/base/BanReasons.sol",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a723058207af15b7d24f00db9806782495faecd1301cccc57ba4fce29f4e1dfe662bb541f64736f6c634300050a0032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a723058207af15b7d24f00db9806782495faecd1301cccc57ba4fce29f4e1dfe662bb541f64736f6c634300050a0032",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

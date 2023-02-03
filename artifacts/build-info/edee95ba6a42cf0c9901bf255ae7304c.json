@@ -1,0 +1,104 @@
+{
+  "id": "edee95ba6a42cf0c9901bf255ae7304c",
+  "_format": "hh-sol-build-info-1",
+  "solcVersion": "0.5.10",
+  "solcLongVersion": "0.5.10+commit.5a6ea5b1",
+  "input": {
+    "language": "Solidity",
+    "sources": {
+      "posdao-contracts/contracts/mock/EmptyContract.sol": {
+        "content": "pragma solidity 0.5.10;\n\n\ncontract EmptyContract {}"
+      }
+    },
+    "settings": {
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "evmVersion": "constantinople",
+      "outputSelection": {
+        "*": {
+          "*": [
+            "abi",
+            "evm.bytecode",
+            "evm.deployedBytecode",
+            "evm.methodIdentifiers",
+            "metadata"
+          ],
+          "": [
+            "ast"
+          ]
+        }
+      }
+    }
+  },
+  "output": {
+    "contracts": {
+      "posdao-contracts/contracts/mock/EmptyContract.sol": {
+        "EmptyContract": {
+          "abi": [],
+          "evm": {
+            "bytecode": {
+              "linkReferences": {},
+              "object": "6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a7230582005d1199113bbe417646a343d377aadb3fbc76efddee2c76d04c6af826eb54e8164736f6c634300050a0032",
+              "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3E DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH6 0x627A7A723058 KECCAK256 SDIV 0xd1 NOT SWAP2 SGT 0xbb 0xe4 OR PUSH5 0x6A343D377A 0xad 0xb3 0xfb 0xc7 PUSH15 0xFDDEE2C76D04C6AF826EB54E816473 PUSH16 0x6C634300050A00320000000000000000 ",
+              "sourceMap": "26:25:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:25:0;;;;;;;"
+            },
+            "deployedBytecode": {
+              "linkReferences": {},
+              "object": "6080604052600080fdfea265627a7a7230582005d1199113bbe417646a343d377aadb3fbc76efddee2c76d04c6af826eb54e8164736f6c634300050a0032",
+              "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH6 0x627A7A723058 KECCAK256 SDIV 0xd1 NOT SWAP2 SGT 0xbb 0xe4 OR PUSH5 0x6A343D377A 0xad 0xb3 0xfb 0xc7 PUSH15 0xFDDEE2C76D04C6AF826EB54E816473 PUSH16 0x6C634300050A00320000000000000000 ",
+              "sourceMap": "26:25:0:-;;;;;"
+            },
+            "methodIdentifiers": {}
+          },
+          "metadata": "{\"compiler\":{\"version\":\"0.5.10+commit.5a6ea5b1\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"posdao-contracts/contracts/mock/EmptyContract.sol\":\"EmptyContract\"},\"evmVersion\":\"constantinople\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"posdao-contracts/contracts/mock/EmptyContract.sol\":{\"keccak256\":\"0xd984223045750debe95f24a031b163606ac82959b413a6f4f555072744c9d250\",\"urls\":[\"bzzr://105c9f856c65306d3dfd3baf603e55ca622d06bfc5d7cb22f347a3fdc12b5ec4\",\"dweb:/ipfs/QmNxVaUnfub3LzVY2UwuPpTXULkre3cz44hqVX7Eg98arT\"]}},\"version\":1}"
+        }
+      }
+    },
+    "sources": {
+      "posdao-contracts/contracts/mock/EmptyContract.sol": {
+        "ast": {
+          "absolutePath": "posdao-contracts/contracts/mock/EmptyContract.sol",
+          "exportedSymbols": {
+            "EmptyContract": [
+              2
+            ]
+          },
+          "id": 3,
+          "nodeType": "SourceUnit",
+          "nodes": [
+            {
+              "id": 1,
+              "literals": [
+                "solidity",
+                "0.5",
+                ".10"
+              ],
+              "nodeType": "PragmaDirective",
+              "src": "0:23:0"
+            },
+            {
+              "baseContracts": [],
+              "contractDependencies": [],
+              "contractKind": "contract",
+              "documentation": null,
+              "fullyImplemented": true,
+              "id": 2,
+              "linearizedBaseContracts": [
+                2
+              ],
+              "name": "EmptyContract",
+              "nodeType": "ContractDefinition",
+              "nodes": [],
+              "scope": 3,
+              "src": "26:25:0"
+            }
+          ],
+          "src": "0:51:0"
+        },
+        "id": 0
+      }
+    }
+  }
+}
